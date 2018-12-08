@@ -1,0 +1,50 @@
+.countText {
+	text-align: center;
+	margin-top: 24px;
+	color: grey;
+	font-weight: bold;
+	font-size: 18px;
+}
+.error {
+	text-align: center;
+	color: grey;
+}
+.appt {
+	border-bottom: 1px solid grey;
+}
+.apptText {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+.countNumber {
+	color: #01a160;
+}
+.content {
+	margin-top: 32px;
+}
+.titles {
+	font-size: 16px;
+}
+.inputs {
+	margin: 4px;
+}
+.date {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+	color: #01a160;
+}
+.service {
+	padding: 16px;
+}
+.serviceTitle {
+	font-weight: bold;
+	font-size: 18px;
+}
+.addressButton {
+	padding: 8px;
+}
+.serviceInfo {
+	margin-top: 24px;
+}

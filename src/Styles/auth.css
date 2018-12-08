@@ -1,0 +1,79 @@
+.App {
+
+}
+
+.App-logo {
+  width: 100px;
+  height: 100px;
+  margin-left:10px;
+}
+
+.App-header {
+  background-color: #01a160!important;
+  height: 120px;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px;
+}
+.logoContainer {
+  height: 96px;
+  width: 96px;
+  border-radius: 96px;
+  background: url("../img/logo.png");
+  margin-left: 12px;
+}
+.App-link {
+  color: #61dafb;
+}
+.AppName {
+  margin-left: 12px;
+  margin-top: 24px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.selectedTab {
+  font-weight: bold;
+  background-color: #01a160;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 5px 5px 0px 0px;
+}
+.login {
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.login ul {
+  margin-top: 16px;
+}
+.footer{
+  height: 30px;
+  background: #DCDCDC;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #696969;
+  text-align: center;
+}
+.authForms {
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  font-size: 14px;
+}
+.fullWidthInput {
+  width: 100%;
+}
+.loginBox {
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

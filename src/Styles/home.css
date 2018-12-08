@@ -1,0 +1,246 @@
+html, body {
+  background-color: white;
+  padding-bottom: 32px;
+}
+.profile {
+  padding: 16px;
+}
+.inputGroup {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.tabPanel {
+
+}
+.grey {
+  color: grey;
+}
+.queueEntry {
+  border: .5px solid #d9d9d9;
+  border-bottom: none;
+  padding: 16px;
+}
+.queueList {
+  margin: 16px;
+}
+.time {
+  font-size: 18px;
+}
+.queueEntry:last-child {
+  margin-bottom: 16px;
+  border-bottom: .5px solid #d9d9d9;
+}
+.queueEntry:first-child {
+  border-radius: 4px 4px 0px 0px;
+}
+.QueueContainer {
+  padding-bottom: 2px;
+}
+.transparent {
+  background-color: transparent;
+  border: none;
+}
+.queue {
+  margin-top: 12px;
+}
+.queueTop {
+  background-color: #f2f2f2;
+  text-align: center;
+  color: grey;
+  font-size: 28px;
+  padding: 8px;
+}
+.dateButton {
+  font-size: 22px;
+}
+.button-22 {
+  font-size: 22px;
+}
+.button-22:focus {
+  outline: 0!important;
+}
+.greenButton {
+  background-color: #01a160;
+  color: #FFF;
+  border: 1px solid #01a160;
+}
+.customButton {
+  border-radius: 2px;
+  margin: 4px;
+}
+.day {
+  text-align: center;
+  font-size: 18px;
+  justify-content: center;
+}
+.textCenter {
+    margin: auto;
+}
+.dateView {
+  color: #01a160;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.App {
+  display: flex;
+  flex-flow: column;
+}
+
+.App-logo {
+  width: 120px;
+  height: 120px;
+}
+
+.top {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #FFF;
+  margin-top: 12px;
+  border-radius: 8px 8px 0px 0px;
+}
+.custom-card {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .2);
+  border-radius: 4px;
+}
+
+.red {background-color: red;}
+
+.custom-card-only-top {
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, .2);
+}
+
+.custom-card-transition {
+  transition: 0.3s;
+}
+.settings .settingsBody {
+  padding: 16px;
+}
+.settingsContainer {
+  border: 1px solid #d9d9d9;
+  margin-top: 20px;
+}
+.settingsTitle {
+  background-color: #f2f2f2;
+  padding: 8px;
+}
+.dashboardContent {
+  margin-top: 0px;
+}
+.topTabs {
+  margin-top: 2px;
+  padding: 0px!important;
+  margin-bottom: 0px!important;
+  background-color: #FFF;
+  font-weight: bold;
+  font-size: 12px;
+}
+.noMargin {
+  margin: 0px!important;
+  padding: 0px!important;
+}
+.logoContainer {
+
+}
+.App-link {
+  color: #61dafb;
+}
+.companyName {
+  margin-left: 12px;
+  margin-top: 24px;
+  font-weight: bold;
+  font-size: 36px;
+  color: #333;
+}
+.selectedTab {
+  font-weight: bold;
+  background-color: #01a160;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 5px 5px 0px 0px;
+}
+.login {
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.login ul {
+  margin-top: 16px;
+}
+.footer{
+  background: #DCDCDC;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: #696969;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.authForms {
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  font-size: 14px;
+}
+.fullWidthInput {
+  width: 100%;
+}
+.logout {
+  height: 100%;
+  font-size: 18px;
+  background-color: transparent;
+  color: #0191a0;
+}
+.green {
+  color: #01a160;
+}
+.bold {
+  font-weight: bold;
+}
+.menu-card {
+  padding: 5px;
+  padding-bottom: 0px;
+  background-color: #FFFFFF;
+}
+.leftCard {
+  margin-top: 16px;
+  font-weight: bold;
+  background-color: #FFF;
+}
+
+.leftCard small {
+  font-weight: bold;
+}
+
+.leftCard-title {
+  color: #FFF;
+  font-weight: bold;
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 4px 4px 0px 0px;
+  justify-content: space-between;
+}
+
+.leftCardBody {
+  padding: 18px;
+  text-align: center;
+}
+
+.leftCard-title-next {
+  background-color: #0191a0;
+}
+.leftCard-title-serving {
+  background-color: #01a160;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
